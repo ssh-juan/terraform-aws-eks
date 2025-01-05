@@ -1,3 +1,7 @@
-# my-demo-repo
+# Terraform AWS EKS
 
-Nothing here, I did it on the GitHub Foundations course just to follow along the video.
+## High-Level Architecture
+
+## Docs
+[VPC and subnet requirements](https://docs.aws.amazon.com/eks/latest/userguide/network-reqs.html)
+
