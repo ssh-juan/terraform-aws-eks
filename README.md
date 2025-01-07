@@ -12,3 +12,5 @@ Cluster -> Nodes (Pods) -> eksctl -> OIDC -> AWS Load Balancer Controller (to cr
 - [Amazon EKS node IAM role](https://docs.aws.amazon.com/eks/latest/userguide/create-node-role.html)  
 - [Create an IAM OIDC provider for your cluster](https://docs.aws.amazon.com/eks/latest/userguide/enable-iam-roles-for-service-accounts.html)  
 - [Install AWS Load Balancer Controller with Helm](https://docs.aws.amazon.com/eks/latest/userguide/lbc-helm.html)
+- [Pre-Commit](https://pre-commit.com/)
+- [Pre-Commit Hook Terraform](https://github.com/antonbabenko/pre-commit-terraform)
