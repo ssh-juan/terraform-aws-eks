@@ -14,3 +14,16 @@ Cluster -> Nodes (Pods) -> eksctl -> OIDC -> AWS Load Balancer Controller (to cr
 - [Install AWS Load Balancer Controller with Helm](https://docs.aws.amazon.com/eks/latest/userguide/lbc-helm.html)
 - [Pre-Commit](https://pre-commit.com/)
 - [Pre-Commit Hook Terraform](https://github.com/antonbabenko/pre-commit-terraform)
+
+
+
+
+
+## New / To Understand
+Variables.tf
+x
+.tfvars
+x
+Vars x Locals x Data
+
+Function: cidrsubnet()
