@@ -9,11 +9,11 @@ variable "tags" {
 }
 
 variable "subnet_pub_1a" {
-  type = string
+  type        = string
   description = "Subnet to create EKS Cluster AZ-1a"
 }
 
 variable "subnet_pub_1b" {
-  type = string
+  type        = string
   description = "Subnet to create EKS Cluster AZ-1b"
 }
