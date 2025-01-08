@@ -27,3 +27,5 @@ x
 Vars x Locals x Data
 
 Function: cidrsubnet()
+Elastic IP
+merge()
