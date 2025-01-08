@@ -5,8 +5,12 @@ terraform {
       version = "5.82.2"
     }
   }
+
+  #backend "local" {
+  #  path = "./terraform.tfstate"
+  #}
   backend "s3" {
-    bucket = "terraform-state-juanborgess"
+    bucket = "terraform-state-juanborges"
     key    = "eks/terraform.tfstate"
     region = "us-east-1"
   }
