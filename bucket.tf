@@ -3,6 +3,7 @@ resource "aws_s3_bucket" "bucket" {
 
   lifecycle {
     prevent_destroy = true #just a prevention while I study
+    ignore_changes  = all  #just a prevention while I study - to .tf not destroy
   }
 }
 
