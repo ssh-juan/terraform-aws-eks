@@ -17,7 +17,7 @@ Cluster -> Nodes (Pods) -> eksctl -> OIDC -> AWS Load Balancer Controller (to cr
 
 
 ## Pre-Commit Hook
-Actual Setup
+Current Setup
 - Terraform Validate
 - Terraform Fmt -recursive
 - Terraform Docs
@@ -70,6 +70,8 @@ merge()
 |------|-------------|------|---------|:--------:|
 | <a name="input_cidr_block"></a> [cidr\_block](#input\_cidr\_block) | Network CIDR Block for VPC | `string` | n/a | yes |
 | <a name="input_project_name"></a> [project\_name](#input\_project\_name) | Project Name to be used to name Resources, as a tag | `string` | n/a | yes |
+| <a name="input_region"></a> [region](#input\_region) | AWS Region to create Resources | `string` | n/a | yes |
+| <a name="input_tags"></a> [tags](#input\_tags) | A map of tags to add to all AWS Resources | `map(any)` | n/a | yes |
 
 ## Outputs
 

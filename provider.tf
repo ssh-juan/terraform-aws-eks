@@ -16,16 +16,15 @@ terraform {
   #backend "local" {
   #  path = "./terraform.tfstate"
   #}
-  backend "s3" {
-    bucket = "terraform-state-juanborges"
-    key    = "eks/terraform.tfstate"
-    region = "us-east-1"
-  }
+  #backend "s3" {
+  #  bucket = "terraform-state-juanborges"
+  #  key    = "eks/terraform.tfstate"
+  #  region = var.region
+  #}
 }
 
 provider "aws" {
-  # Configuration options
-  region = "us-east-1"
+  region = var.region
 
   default_tags {
     tags = {
