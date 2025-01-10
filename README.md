@@ -1,7 +1,7 @@
 # Terraform AWS EKS
 
 ## High-Level Architecture
-image here
+![architecture](imgs/aws-terraform-eks-architecture_gif.gif)
 
 ## TO DO - Steps
 Cluster -> Nodes (Pods) -> eksctl -> OIDC -> AWS Load Balancer Controller (to crelsate the Ingresses)
