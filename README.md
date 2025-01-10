@@ -1,4 +1,5 @@
 # Terraform AWS EKS
+![repo logo](imgs/repo_logo.png)  
 This repository contains Terraform configurations used for my studies to automate the deployment of an Amazon EKS cluster.  
 It sets up a VPC with subnets, route tables, and necessary gateways, provisions the EKS cluster with worker nodes, configures OIDC for authentication, and integrates the AWS Load Balancer Controller for managing Kubernetes ingress resources. Helm is utilized for package management within the Kubernetes environment.
 
