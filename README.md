@@ -3,36 +3,31 @@
 ## High-Level Architecture
 ![architecture](imgs/aws-terraform-eks-architecture_gif.gif)
 
-## TO DO - Steps
-Cluster -> Nodes (Pods) -> eksctl -> OIDC -> AWS Load Balancer Controller (to crelsate the Ingresses)
+## Steps
+- Networking (VPC, Subnets, Route Tables, IGW (Internet Gateway), NGW (NAT Gateway), Elastic IP)
+- Cluster
+- Nodes
+- eksctl
+- OIDC - Open ID Connect
+- AWS Load Balancer Controller (to create the Ingresses)
+- Helm
 
-## Docs
+## Docs and Resources
 - [VPC and subnet requirements](https://docs.aws.amazon.com/eks/latest/userguide/network-reqs.html)  
 - [Amazon EKS cluster IAM role](https://docs.aws.amazon.com/eks/latest/userguide/cluster-iam-role.html)  
 - [Amazon EKS node IAM role](https://docs.aws.amazon.com/eks/latest/userguide/create-node-role.html)  
 - [Create an IAM OIDC provider for your cluster](https://docs.aws.amazon.com/eks/latest/userguide/enable-iam-roles-for-service-accounts.html)  
 - [Install AWS Load Balancer Controller with Helm](https://docs.aws.amazon.com/eks/latest/userguide/lbc-helm.html)
-- [Pre-Commit](https://pre-commit.com/)
 - [Pre-Commit Hook Terraform](https://github.com/antonbabenko/pre-commit-terraform)
 
-
 ## Pre-Commit Hook
-Current Setup
+Current Setup:
 - Terraform Validate
 - Terraform Fmt -recursive
 - Terraform Docs
 
-
-## New / To Understand
-Variables.tf
-x
-.tfvars
-x
-Vars x Locals x Data
-
-Function: cidrsubnet()
-Elastic IP
-merge()
+ 
+## Documentation Below Using Terraform Docs
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
